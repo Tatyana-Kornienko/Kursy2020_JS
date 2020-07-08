@@ -1,0 +1,40 @@
+
+.part1 {
+    position: relative; /* Относительное позиционирование */
+    background: #5ec038; /* Цвет фона */
+    margin:auto;
+    float: left;
+    left: 10px;
+    top: 10px;
+    width: 53%;
+    height: 400px; /* Высота блока */
+   }
+.part2 {
+    position: relative; /* Относительное позиционирование */
+    background: #5ec038; /* Цвет фона */
+    margin:auto;
+    float: right;
+    left: 10px;
+    top: 10px;
+    width: 53%;
+    height: 400px; /* Высота блока */
+   }
+.part3 {
+    position: relative; /* Относительное позиционирование */
+    margin:auto;
+    background: #afe716; /* Цвет фона */
+    height: 200px; /* Высота блока */
+    width: 100%;
+   }
+.part4 {
+    margin:auto;
+    float: right;
+   
+   }
+.part5 {
+    margin:auto;
+    float:centre;
+}
+.Footer {
+    margin:auto;
+   }

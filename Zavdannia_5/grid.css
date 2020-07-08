@@ -1,0 +1,35 @@
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "nav article ads"
+      "footer footer footer";
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-gap: 15px;
+    height: 100vh;
+    margin: 0;
+    }
+  header, footer, article, nav, div {
+    padding: 15px;
+  }
+  .Header {
+    grid-area: header;
+    background: rgb(172, 231, 94);
+  }
+  .Footer {
+    grid-area: footer;
+    background: rgb(172, 231, 94);
+  }
+  .main { 
+    grid-area: article;
+    background: rgb(246, 248, 108);
+    }
+  .left-side{ 
+    grid-area: nav; 
+    background: rgb(94, 231, 208);
+    }
+  .right-side { 
+    grid-area: ads; 
+    background: rgb(94, 231, 208);
+    }

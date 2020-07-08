@@ -1,6 +1,7 @@
 body {
     margin: 0pt;
     padding: 0pt;
+    height: 100%;
 }
 header {
     background: rgb(204, 227, 236); 
@@ -27,7 +28,8 @@ header nav a {
 
 main {
     background: rgb(125, 213, 235); 
-    width:60%;
+    width:100%;
+    height: 100%;
 }
 
 * {
@@ -62,6 +64,11 @@ iframe {
   }
 
 aside {
+    height: 100%;
+}
+
+section{
+    width: 60%;
     height: 100vw;
 }
 
@@ -82,7 +89,7 @@ aside {
 .aside-right{
     width:20%;
     background:rgb(126, 228, 126);
-    float: right;
+    float: left;
     }
  
 .style1{
