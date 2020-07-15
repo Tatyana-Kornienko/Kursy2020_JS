@@ -1,0 +1,188 @@
+body {
+    background: yellow;
+    width: 100%;
+    overflow-x: hidden;
+
+ }
+
+header{
+    display: block;
+    width: 100%;
+    height: 120px;
+    background: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+main {
+    position: relative;
+  }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin-right: 115px;
+ }
+nav {
+    display: block;
+    margin-top: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(122, 120, 120);
+    font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 9pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+ }
+
+ ul li a :hover{
+    font-weight: bold;
+    color: black;
+} 
+
+
+button {
+        display: flex;
+        margin: 0 auto;
+        width: 250px;
+        height: 50px;
+        background: black;
+        border: 0;
+        border-radius: 5px; 
+        margin-top: 50px;
+       }    
+
+h1 span {
+    position: absolute;
+    color: white;
+    font-size: 60pt;
+    text-decoration: none;
+    top: 395px;
+	left: 115px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo{
+    display: block;
+    width: 30px;
+    height: 45px;
+    margin-top: 34px;
+    margin-left: 115px;
+    float:left;
+}
+
+.menu{
+    padding: 5px 15px;
+}
+
+.block-1{
+    display: block;
+    position: relative;
+    background-image: url(https://static3.glucode.com/assets/hero-img-1024-e607bba599997e7fe358a34a60a27ada394fa9fd99ebe1bdd14c261f86e25cd5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 1200px;
+    margin-left: -10px;
+    }
+
+.text-1{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(3, 3, 3);
+    font-size: 40pt;
+    margin-left: 60px;
+
+}
+
+.text-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #9b9b9b;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 80pt;
+}
+
+.col-3 {
+    height: auto;
+    width: 33,33%; 
+    margin: 0;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  .col-3-text{
+    color: black;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+   
+    }
+  
+  .row {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      align-content: center;
+      justify-content: space-between;
+      margin-left: 60pt;
+      margin-right: 60pt;
+     }
+
+.row-button {
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+.button-text{
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 35px;
+    padding-top: 7px;
+    font-family: 'Montserrat', sans-serif;
+    overflow:hidden;
+   }
+
+button .button-text-anime { 
+        display: none; 
+}
+button:hover .button-text { 
+    display: none; 
+}
+button:hover .button-text-anime { 
+    display: inline; 
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    font-family: 'Montserrat', sans-serif;
+    overflow:hidden;
+}
+
+.block-4{
+background-image: url(https://static0.glucode.com/assets/featured-projects-1920-8181b4ef3bd6a6aaa5a65cc571505dc3b1188169c81652f55a8436ef813155d4.png),linear-gradient(290deg, #ffde58, #f4590b);
+background-position: right;
+background-repeat: no-repeat;
+background-size: contain;
+width: 100vw;
+height: 700px !important;
+position: relative;
+}
